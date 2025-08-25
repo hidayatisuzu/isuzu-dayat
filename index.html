@@ -1,57 +1,824 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dealer Isuzu Jakarta - Menyediakan truk Isuzu berkualitas dengan layanan terbaik.">
-    <title>Dealer Isuzu Jakarta</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dealer Truk Isuzu Jakarta | Showroom Online 2025</title>
+  <meta name="description" content="Showroom online Dealer Truk Isuzu Jakarta. Lihat unit terbaru 2025, spesifikasi lengkap, pricelist, promo, dan hubungi kami via WhatsApp." />
+  <meta name="keywords" content="Dealer Isuzu Jakarta, Truk Isuzu 2025, Harga Isuzu, Isuzu Traga, Isuzu Elf, Isuzu Giga" />
+  <meta name="theme-color" content="#111827" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23111827'/%3E%3Ctext x='50' y='58' font-size='52' text-anchor='middle' fill='white' font-family='Arial'%3EI%3C/text%3E%3C/svg%3E"/>
+  
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      the
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#D90429',
+              dark: '#9B031D',
+            },
+          },
+          boxShadow: {
+            smooth: '0 10px 30px -12px rgba(0,0,0,0.25)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Smooth fade routing */
+    .fade-enter { opacity: 0; transform: translateY(6px); }
+    .fade-enter-active { opacity: 1; transform: translateY(0); transition: all .25s ease; }
+    /* Horizontal gallery scroll */
+    .snap-x::-webkit-scrollbar { height: 8px; }
+    .snap-x::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 8px; }
+  </style>
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dealer Truk Isuzu Jakarta – 2025" />
+  <meta property="og:description" content="Lihat unit Isuzu terbaru 2025, spesifikasi lengkap, dan harga. Hubungi kami via WhatsApp untuk penawaran terbaik." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Isuzu_logo.svg/512px-Isuzu_logo.svg.png" />
+
+  <!-- Structured Data (Organization + LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoDealer",
+    "name": "Dealer Truk Isuzu Jakarta",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Isuzu_logo.svg/512px-Isuzu_logo.svg.png",
+    "brand": {"@type": "Brand", "name": "Isuzu"},
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Danau Sunter Utara Blok O3 Kav. 30 Sunter II",
+      "addressLocality": "Jakarta Utara",
+      "addressRegion": "DKI Jakarta",
+      "postalCode": "14350",
+      "addressCountry": "ID"
+    },
+    "telephone": "+62-853-3818-0260",
+    "areaServed": "Jakarta dan sekitarnya",
+    "url": "https://dealerisuzujakarta.web.id/"
+  }
+  </script>
 </head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <h1>Dealer Isuzu Jakarta</h1>
-                <ul>
-                    <li><a href="index.html">Beranda</a></li>
-                    <li><a href="produk.html">Produk</a></li>
-                    <li><a href="galeri.html">Galeri</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="kontak.html">Kontak</a></li>
-                    <li><a href="privacy.html">Kebijakan Privasi</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="hero">
-            <img src="images/truck-banner.jpg" alt="Truk Isuzu" />
-            <div class="hero-text">
-                <h2>Dealer Isuzu Jakarta</h2>
-                <a href="https://wa.me/6282246485774" class="btn">Hubungi Kami via WhatsApp</a>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <section class="keunggulan">
-            <h2>Keunggulan Isuzu</h2>
-            <ul>
-                <li>Irit</li>
-                <li>Tangguh</li>
-                <li>After Sales Terpercaya</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>PT Astra Isuzu | Jl. Danau Sunter Utara Blok O3 Kav 30 Sunter II, Jakarta Utara</p>
-            <p>Telepon: <a href="https://wa.me/6282246485774">+62 822-4648-5774</a></p>
-        </div>
-    </footer>
-
-    <div class="whatsapp-float">
-        <a href="https://wa.me/6282246485774">WhatsApp</a>
+<body class="bg-white text-gray-800">
+  <!-- Top Bar -->
+  <div class="bg-gray-900 text-gray-100 text-sm">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+      <span>Kuat & Terpercaya — Dealer Truk Isuzu Jakarta</span>
+      <a href="https://wa.me/6285338180260" class="hover:underline">WA: 0853-3818-0260</a>
     </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#/" class="flex items-center gap-3">
+        <span class="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-brand text-white font-bold">IZ</span>
+        <span class="font-semibold">Dealer Truk Isuzu Jakarta</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6">
+        <a class="hover:text-brand" href="#/">Beranda</a>
+        <a class="hover:text-brand" href="#/units">Unit Truk</a>
+        <a class="hover:text-brand" href="#/pricelist">Pricelist 2025</a>
+        <a class="hover:text-brand" href="#/contact">Kontak</a>
+      </nav>
+      <div class="md:hidden">
+        <button id="btnMenu" aria-label="Menu" class="p-2 rounded-lg border border-gray-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-gray-100">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-3">
+        <a class="py-2" href="#/">Beranda</a>
+        <a class="py-2" href="#/units">Unit Truk</a>
+        <a class="py-2" href="#/pricelist">Pricelist 2025</a>
+        <a class="py-2" href="#/contact">Kontak</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main App Container -->
+  <main id="app" class="min-h-[70vh]"></main>
+
+  <!-- Footer -->
+  <footer class="mt-16 border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid gap-8 md:grid-cols-4">
+      <div>
+        <div class="flex items-center gap-3 mb-3">
+          <span class="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-brand text-white font-bold">IZ</span>
+          <span class="font-semibold">Dealer Truk Isuzu Jakarta</span>
+        </div>
+        <p class="text-sm text-gray-600">Showroom online resmi untuk konsultasi pembelian truk Isuzu 2025. Dapatkan rekomendasi tepat sesuai kebutuhan usaha Anda.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Navigasi</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a class="hover:underline" href="#/">Beranda</a></li>
+          <li><a class="hover:underline" href="#/units">Unit Truk</a></li>
+          <li><a class="hover:underline" href="#/pricelist">Pricelist</a></li>
+          <li><a class="hover:underline" href="#/contact">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Kontak</h4>
+        <ul class="text-sm space-y-2">
+          <li>Alamat: Jalan Danau Sunter Utara Blok O3 Kav. 30 Sunter II, Jakarta Utara</li>
+          <li>WhatsApp: <a class="text-brand hover:underline" href="https://wa.me/6285338180260">0853-3818-0260</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Legal & SEO</h4>
+        <p class="text-sm text-gray-600">Konten harga & spesifikasi bersifat informatif dan dapat berubah. Optimasi SEO: meta, struktur data, URL hash, dan konten relevan.</p>
+      </div>
+    </div>
+    <div class="border-t border-gray-100">
+      <div class="max-w-7xl mx-auto px-4 py-6 text-xs text-gray-500 flex flex-col md:flex-row gap-2 md:items-center md:justify-between">
+        <span>© <span id="year"></span> Dealer Truk Isuzu Jakarta. All rights reserved.</span>
+        <div class="flex items-center gap-3">
+          <a class="hover:underline" href="#/privacy">Kebijakan Privasi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/6285338180260" target="_blank" aria-label="Chat WhatsApp" class="fixed bottom-5 right-5 z-50 inline-flex items-center gap-3 px-4 py-3 rounded-full shadow-smooth bg-green-500 text-white hover:scale-105 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="w-5 h-5" fill="currentColor"><path d="M19.11 17.52c-.28-.14-1.64-.81-1.9-.9-.26-.1-.45-.14-.64.14-.19.28-.74.9-.91 1.08-.17.19-.34.21-.63.07-.28-.14-1.2-.44-2.3-1.4-.85-.76-1.42-1.7-1.59-1.99-.17-.28-.02-.44.13-.58.13-.13.28-.34.42-.51.14-.17.19-.28.28-.47.09-.19.05-.36-.02-.51-.07-.14-.64-1.54-.88-2.1-.23-.56-.47-.48-.64-.49l-.55-.01c-.19 0-.5.07-.76.36-.26.28-.99.97-.99 2.37 0 1.39 1.02 2.75 1.16 2.94.14.19 2.01 3.07 4.87 4.31.68.29 1.22.47 1.64.6.69.22 1.32.19 1.82.11.56-.08 1.64-.67 1.87-1.33.23-.66.23-1.22.16-1.34-.06-.12-.25-.19-.53-.33z"/><path d="M16.04 3C9.38 3 4 8.38 4 15.02c0 2.12.55 4.09 1.51 5.82L4 29l8.33-1.46A11.99 11.99 0 0 0 28 15.02C28 8.38 22.7 3 16.04 3zm6.96 18.57c-.29.83-1.67 1.58-2.37 1.68-.6.09-1.38.13-2.22-.14-.51-.16-1.16-.37-2-.72-3.52-1.52-5.8-5.06-5.98-5.29-.17-.23-1.43-1.9-1.43-3.63 0-1.74.88-2.59 1.19-2.95.31-.36.68-.45.9-.45h.65c.21 0 .48-.08.75.57.29.7.92 2.21 1 2.37.08.16.12.34.02.54-.1.19-.16.31-.32.49-.16.19-.33.42-.47.56-.16.16-.32.33-.15.65.17.33.73 1.21 1.57 1.94 1.08.96 2 1.29 2.33 1.46.32.16.52.14.71-.08.22-.26.5-.67.79-1.08.2-.28.45-.31.71-.21.27.09 1.7.8 1.99.94.29.14.47.21.54.33.07.12.07.72-.22 1.55z"/></svg>
+    <span class="hidden sm:block">Chat WhatsApp</span>
+  </a>
+
+  <!-- ROUTER VIEWS TEMPLATES RENDERED VIA JS -->
+  <template id="tpl-home">
+    <section class="bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Showroom Online Truk <span class="text-brand">Isuzu 2025</span></h1>
+          <p class="mt-4 text-gray-600">Didesain untuk kebutuhan bisnis Indonesia: irit, kuat, dan siap kerja. Lihat unit unggulan, bandingkan spesifikasi, dan minta penawaran langsung.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#/units" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand text-white shadow-smooth">
+              Lihat Semua Unit
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#/pricelist" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gray-900 text-white">
+              Pricelist 2025
+            </a>
+          </div>
+          <!-- Promo Banner (toggleable) -->
+          <div id="promoArea" class="mt-8 hidden">
+            <div class="rounded-2xl border p-5 bg-white flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-brand/10 text-brand inline-flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-semibold">Promo Terbaru</h3>
+                <p class="text-sm text-gray-600">Dapatkan penawaran spesial unit tertentu. Hubungi kami via WhatsApp untuk detail.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <img alt="Hero Isuzu Trucks" class="w-full rounded-2xl shadow-smooth" src="https://images.unsplash.com/photo-1613214841376-5b7cbb7a14da?q=80&w=1600&auto=format&fit=crop"/>
+          <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-smooth p-4 w-64">
+            <p class="text-sm text-gray-500">Siap kirim se-Indonesia*</p>
+            <p class="text-xs text-gray-400">*S&K berlaku</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Units -->
+    <section class="max-w-7xl mx-auto px-4 py-12">
+      <div class="flex items-end justify-between mb-6">
+        <h2 class="text-2xl md:text-3xl font-bold">Unit Unggulan</h2>
+        <a href="#/units" class="text-brand hover:underline">Lihat semua</a>
+      </div>
+      <div id="featured" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 py-12">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6">Testimoni Pelanggan</h2>
+        <div class="grid gap-6 md:grid-cols-3" id="testimonials"></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-units">
+    <section class="max-w-7xl mx-auto px-4 py-10">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-6">
+        <div>
+          <h1 class="text-2xl md:text-3xl font-extrabold">Semua Unit Truk Isuzu 2025</h1>
+          <p class="text-gray-600">Filter berdasarkan tipe, kapasitas, atau harga untuk menemukan unit yang tepat.</p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <input id="q" type="search" placeholder="Cari model..." class="px-4 py-2 rounded-xl border w-56" />
+          <select id="fType" class="px-4 py-2 rounded-xl border">
+            <option value="">Semua Tipe</option>
+          </select>
+          <select id="fCapacity" class="px-4 py-2 rounded-xl border">
+            <option value="">Semua Kapasitas</option>
+            <option value="<2t">Di bawah 2 Ton</option>
+            <option value="2-5t">2–5 Ton</option>
+            <option value=">5t">Di atas 5 Ton</option>
+          </select>
+          <select id="fPrice" class="px-4 py-2 rounded-xl border">
+            <option value="">Semua Harga</option>
+            <option value="<300">&lt; Rp300jt</option>
+            <option value="300-700">Rp300–700jt</option>
+            <option value=">700">&gt; Rp700jt</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="unitsList" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </section>
+  </template>
+
+  <template id="tpl-unit-detail">
+    <section class="max-w-7xl mx-auto px-4 py-10">
+      <nav class="text-sm mb-4 text-gray-500"><a class="hover:underline" href="#/units">Unit</a> / <span id="bdCrumb"></span></nav>
+      <div class="grid lg:grid-cols-5 gap-8">
+        <div class="lg:col-span-3">
+          <div class="rounded-2xl border overflow-hidden">
+            <img id="heroImg" alt="Foto unit" class="w-full object-cover max-h-[420px]"/>
+          </div>
+          <div id="gallery" class="mt-4 flex gap-3 overflow-x-auto snap-x"></div>
+        </div>
+        <div class="lg:col-span-2">
+          <h1 id="uTitle" class="text-2xl md:text-3xl font-extrabold"></h1>
+          <p id="uSubtitle" class="text-gray-600 mt-1"></p>
+          <p class="mt-4 text-xl font-bold" id="uPrice"></p>
+          <div class="mt-4 grid grid-cols-2 gap-3 text-sm">
+            <div class="p-4 rounded-xl border">
+              <p class="text-gray-500">Tipe</p>
+              <p id="uType" class="font-semibold"></p>
+            </div>
+            <div class="p-4 rounded-xl border">
+              <p class="text-gray-500">Kapasitas</p>
+              <p id="uCapacity" class="font-semibold"></p>
+            </div>
+          </div>
+          <div class="mt-6">
+            <a id="btnWAUnit" target="_blank" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand text-white shadow-smooth">
+              Minta Penawaran via WhatsApp
+            </a>
+          </div>
+
+          <!-- Form Permintaan Penawaran -->
+          <div class="mt-6 p-5 border rounded-2xl">
+            <h3 class="font-semibold mb-3">Form Permintaan Penawaran</h3>
+            <form id="formQuote" class="grid gap-3">
+              <input required name="nama" placeholder="Nama lengkap" class="px-4 py-2 rounded-xl border" />
+              <input required name="telp" placeholder="No. HP/WhatsApp" class="px-4 py-2 rounded-xl border" />
+              <input name="perusahaan" placeholder="Perusahaan (opsional)" class="px-4 py-2 rounded-xl border" />
+              <select name="pembiayaan" class="px-4 py-2 rounded-xl border">
+                <option value="Cash">Cash</option>
+                <option value="Leasing">Leasing</option>
+                <option value="Konsultasi">Butuh konsultasi</option>
+              </select>
+              <textarea name="catatan" rows="3" placeholder="Catatan kebutuhan (karoseri, rute, muatan, dll)" class="px-4 py-2 rounded-xl border"></textarea>
+              <button class="px-5 py-3 rounded-xl bg-gray-900 text-white">Kirim via WhatsApp</button>
+            </form>
+            <p class="text-xs text-gray-500 mt-2">Dengan mengirim formulir ini Anda akan diarahkan ke WhatsApp untuk konfirmasi cepat.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Spesifikasi Teknis -->
+      <div class="mt-10">
+        <h2 class="text-xl md:text-2xl font-bold mb-4">Spesifikasi Teknis</h2>
+        <div id="specs" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      </div>
+
+      <!-- Pricelist Unit Varian -->
+      <div class="mt-10">
+        <h2 class="text-xl md:text-2xl font-bold mb-4">Varian & Harga</h2>
+        <div id="variants" class="overflow-x-auto">
+          <table class="min-w-full text-sm border">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="text-left p-3 border">Varian</th>
+                <th class="text-left p-3 border">Transmisi</th>
+                <th class="text-left p-3 border">Daya Angkut</th>
+                <th class="text-left p-3 border">Harga OTR* (Rp)</th>
+              </tr>
+            </thead>
+            <tbody id="variantRows"></tbody>
+          </table>
+          <p class="text-xs text-gray-500 mt-2">*Perkiraan OTR Jakarta 2025 — hubungi kami untuk penawaran resmi terbaru.</p>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-pricelist">
+    <section class="max-w-7xl mx-auto px-4 py-10">
+      <h1 class="text-2xl md:text-3xl font-extrabold mb-6">Daftar Harga Truk Isuzu 2025</h1>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-sm border">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="text-left p-3 border">Model</th>
+              <th class="text-left p-3 border">Tipe</th>
+              <th class="text-left p-3 border">Kapasitas</th>
+              <th class="text-left p-3 border">Harga OTR* (Rp)</th>
+              <th class="text-left p-3 border">Link</th>
+            </tr>
+          </thead>
+          <tbody id="priceRows"></tbody>
+        </table>
+        <p class="text-xs text-gray-500 mt-2">*Harga indikatif. Dapat berubah sewaktu-waktu. Cek ketersediaan & promo via WhatsApp.</p>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-contact">
+    <section class="max-w-7xl mx-auto px-4 py-10 grid lg:grid-cols-5 gap-8">
+      <div class="lg:col-span-2">
+        <h1 class="text-2xl md:text-3xl font-extrabold">Kontak Kami</h1>
+        <p class="mt-2 text-gray-600">Silakan kunjungi showroom atau hubungi kami untuk konsultasi unit Isuzu yang tepat.</p>
+        <div class="mt-6 space-y-3 text-sm">
+          <p><span class="font-semibold">Alamat:</span> Jalan Danau Sunter Utara Blok O3 Kav. 30 Sunter II, Jakarta Utara</p>
+          <p><span class="font-semibold">WhatsApp:</span> <a class="text-brand hover:underline" href="https://wa.me/6285338180260" target="_blank">0853-3818-0260</a></p>
+        </div>
+        <div class="mt-6">
+          <a href="https://wa.me/6285338180260" target="_blank" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand text-white shadow-smooth">Chat WhatsApp</a>
+        </div>
+      </div>
+      <div class="lg:col-span-3">
+        <div class="aspect-video rounded-2xl overflow-hidden border">
+          <iframe title="Lokasi Dealer Isuzu Sunter" width="100%" height="100%" loading="lazy" style="border:0" allowfullscreen
+            src="https://www.google.com/maps?q=Jalan%20Danau%20Sunter%20Utara%20Blok%20O3%20Kav.%2030%20Sunter%20II%2C%20Jakarta%20Utara&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="tpl-privacy">
+    <section class="max-w-7xl mx-auto px-4 py-10 prose">
+      <h1>Kebijakan Privasi</h1>
+      <p>Website ini mengumpulkan data yang Anda kirim melalui formulir untuk kebutuhan follow-up penawaran. Data tidak dibagikan ke pihak ketiga tanpa persetujuan Anda.</p>
+      <h2>Data yang Dikumpulkan</h2>
+      <ul>
+        <li>Nama, nomor telepon/WhatsApp, perusahaan (opsional), dan catatan kebutuhan.</li>
+      </ul>
+      <h2>Kontak</h2>
+      <p>Jika ada pertanyaan, hubungi WhatsApp <a href="https://wa.me/6285338180260">0853-3818-0260</a>.</p>
+    </section>
+  </template>
+
+  <!-- App Script -->
+  <script>
+    const WA_NUMBER = '6285338180260'; // internasional untuk wa.me
+
+    // ======== Data Master Unit 2025 (contoh/placeholder, silakan sesuaikan gambar & harga resmi) ========
+    const UNITS = [
+      {
+        id: 'traga-pu',
+        name: 'Isuzu Traga Pick Up',
+        type: 'Pick Up',
+        capacity: '1.0–1.5 Ton',
+        price: 279000000,
+        featured: true,
+        subtitle: 'Pick Up irit & tangguh untuk niaga harian',
+        gallery: [
+          'https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=1600&auto=format&fit=crop',
+          'https://images.unsplash.com/photo-1518551933037-7474c7c9d497?q=80&w=1600&auto=format&fit=crop',
+          'https://images.unsplash.com/photo-1485467199712-1c9d8a6a4f87?q=80&w=1600&auto=format&fit=crop'
+        ],
+        specs: {
+          Mesin: '2.5L Diesel Common Rail',
+          Tenaga: '80–100 PS (perkiraan)',
+          Torsi: '191–230 Nm (perkiraan)',
+          Transmisi: '5 MT',
+          Dimensi: 'P 4.620 x L 1.705 x T 1.970 mm (perkiraan)',
+          Wheelbase: '2.250 mm',
+          GVW: '2.950 kg',
+          'Daya Angkut': '1.0–1.5 Ton'
+        },
+        variants: [
+          { name: 'PU STD', trans: '5 MT', payload: '1.0 Ton', price: 279000000 },
+          { name: 'PU Long', trans: '5 MT', payload: '1.5 Ton', price: 295000000 }
+        ]
+      },
+      {
+        id: 'elf-nlr',
+        name: 'Isuzu Elf NLR',
+        type: 'Seri N 4 Ban',
+        capacity: '2–4 Ton',
+        price: 389000000,
+        featured: true,
+        subtitle: 'Rangka kuat, cocok untuk box & muatan ringan',
+        gallery: [
+          'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop',
+          'https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1600&auto=format&fit=crop'
+        ],
+        specs: {
+          Mesin: '2.5–3.0L Diesel (perkiraan)',
+          Tenaga: '100–120 PS (perkiraan)',
+          Torsi: '230–280 Nm (perkiraan)',
+          Transmisi: '5 MT',
+          Dimensi: 'P 5.9 x L 1.8 x T 2.2 m (perkiraan)',
+          Wheelbase: '2.500–3.360 mm',
+          GVW: '5.2–6.0 Ton',
+          'Daya Angkut': '2–4 Ton'
+        },
+        variants: [
+          { name: 'NLR 55', trans: '5 MT', payload: '2.5 Ton', price: 389000000 },
+          { name: 'NLR 71', trans: '5 MT', payload: '3.5 Ton', price: 429000000 }
+        ]
+      },
+      {
+        id: 'elf-nmr',
+        name: 'Isuzu Elf NMR',
+        type: 'Seri N 6 Ban',
+        capacity: '4–6 Ton',
+        price: 459000000,
+        featured: true,
+        subtitle: 'Performa torsi besar untuk rute berat',
+        gallery: [
+          'https://images.unsplash.com/photo-1578844251758-5a102b4c8764?q=80&w=1600&auto=format&fit=crop'
+        ],
+        specs: {
+          Mesin: '3.0L Diesel (perkiraan)',
+          Tenaga: '120–150 PS (perkiraan)',
+          Torsi: '320–380 Nm (perkiraan)',
+          Transmisi: '6 MT',
+          Dimensi: 'P 6.0–7.0 m (perkiraan)',
+          Wheelbase: '3.360–3.800 mm',
+          GVW: '8.25–8.5 Ton',
+          'Daya Angkut': '4–6 Ton'
+        },
+        variants: [
+          { name: 'NMR 71', trans: '6 MT', payload: '4.5 Ton', price: 459000000 },
+          { name: 'NMR 81', trans: '6 MT', payload: '5.5 Ton', price: 499000000 }
+        ]
+      },
+      {
+        id: 'giga-fvm',
+        name: 'Isuzu Giga FVM 6x2',
+        type: 'Giga 6x2',
+        capacity: '16–24 Ton',
+        price: 959000000,
+        featured: true,
+        subtitle: 'Sasis panjang untuk muatan besar & logistik',
+        gallery: [
+          'https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?q=80&w=1600&auto=format&fit=crop',
+          'https://images.unsplash.com/photo-1611967164522-1e162e5b9c4b?q=80&w=1600&auto=format&fit=crop'
+        ],
+        specs: {
+          Mesin: '6HK1 7.8L Diesel (perkiraan)',
+          Tenaga: '260–285 PS (perkiraan)',
+          Torsi: '900–980 Nm (perkiraan)',
+          Transmisi: '9 MT',
+          Dimensi: 'P 9–11 m (perkiraan)',
+          Wheelbase: '4.650–5.750 mm',
+          GVW: '26 Ton',
+          'Daya Angkut': '16–24 Ton'
+        },
+        variants: [
+          { name: 'FVM Long', trans: '9 MT', payload: '22 Ton', price: 959000000 },
+          { name: 'FVM Super', trans: '9 MT', payload: '24 Ton', price: 999000000 }
+        ]
+      },
+      {
+        id: 'giga-fvz',
+        name: 'Isuzu Giga FVZ 6x4',
+        type: 'Giga 6x4',
+        capacity: '24–30 Ton',
+        price: 1199000000,
+        featured: false,
+        subtitle: 'Traksi 6x4 untuk jalur berat & konstruksi',
+        gallery: [
+          'https://images.unsplash.com/photo-1565373679486-1f4b6f08fa5a?q=80&w=1600&auto=format&fit=crop'
+        ],
+        specs: {
+          Mesin: '6UZ1 9.8L Diesel (perkiraan)',
+          Tenaga: '300–350 PS (perkiraan)',
+          Torsi: '1.000–1.400 Nm (perkiraan)',
+          Transmisi: '9–12 MT',
+          Dimensi: 'P 10–11 m (perkiraan)',
+          Wheelbase: '3.800–4.500 mm',
+          GVW: '34 Ton',
+          'Daya Angkut': '24–30 Ton'
+        },
+        variants: [
+          { name: 'FVZ Mixer', trans: '9 MT', payload: '24 Ton', price: 1199000000 },
+          { name: 'FVZ Heavy Duty', trans: '12 MT', payload: '30 Ton', price: 1299000000 }
+        ]
+      },
+      {
+        id: 'giga-gvz',
+        name: 'Isuzu Giga GVZ 6x4 Tractor Head',
+        type: 'Tractor Head 6x4',
+        capacity: '40–60 Ton GCW',
+        price: 1350000000,
+        featured: false,
+        subtitle: 'Tractor Head andalan untuk logistik jarak jauh',
+        gallery: [
+          'https://images.unsplash.com/photo-1518365050014-70fe7232897f?q=80&w=1600&auto=format&fit=crop'
+        ],
+        specs: {
+          Mesin: '6WG1 15.6L Diesel (perkiraan)',
+          Tenaga: '350–420 PS (perkiraan)',
+          Torsi: '1.500–1.800 Nm (perkiraan)',
+          Transmisi: '12 MT',
+          Dimensi: 'Sesuai karoseri trailer',
+          Wheelbase: '3.200–3.500 mm',
+          GVW: '—',
+          'Daya Angkut': 'GCW 40–60 Ton'
+        },
+        variants: [
+          { name: 'GVZ Highway', trans: '12 MT', payload: 'GCW 45 Ton', price: 1350000000 },
+          { name: 'GVZ Heavy', trans: '12 MT', payload: 'GCW 60 Ton', price: 1499000000 }
+        ]
+      }
+    ];
+
+    // ======== UTIL ========
+    const fmtIDR = n => new Intl.NumberFormat('id-ID').format(n);
+    const el = sel => document.querySelector(sel);
+    const create = (tag, attrs = {}, children = []) => {
+      const e = document.createElement(tag);
+      Object.entries(attrs).forEach(([k, v]) => {
+        if (k === 'class') e.className = v; else if (k === 'html') e.innerHTML = v; else e.setAttribute(k, v);
+      });
+      (Array.isArray(children) ? children : [children]).filter(Boolean).forEach(c => e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c));
+      return e;
+    };
+
+    // ======== ROUTER ========
+    const routes = {
+      '': renderHome,
+      '#/': renderHome,
+      '#/units': renderUnits,
+      '#/unit': renderUnitDetail, // expects #/unit/{id}
+      '#/pricelist': renderPricelist,
+      '#/contact': renderContact,
+      '#/privacy': renderPrivacy
+    };
+
+    function router() {
+      const hash = location.hash || '#/';
+      const [base, ...rest] = hash.split('/').slice(0,3); // '#', '', 'unit'
+      const key = rest.length ? `#/${rest[0]}` : '#/';
+      const view = routes[key] || renderHome;
+      const app = el('#app');
+      app.classList.add('fade-enter');
+      if (key === '#/unit') {
+        const id = hash.split('/')[2];
+        view(id);
+      } else {
+        view();
+      }
+      requestAnimationFrame(() => {
+        app.classList.add('fade-enter-active');
+        setTimeout(() => app.classList.remove('fade-enter', 'fade-enter-active'), 250);
+      });
+    }
+
+    // ======== VIEWS ========
+    function renderHome() {
+      const tpl = el('#tpl-home').content.cloneNode(true);
+      // Featured units
+      const featuredWrap = tpl.querySelector('#featured');
+      UNITS.filter(u => u.featured).slice(0,6).forEach(u => {
+        featuredWrap.appendChild(unitCard(u));
+      });
+      // Testimonials sample
+      const ts = [
+        { name: 'Bpk. Surya', role: 'Owner Distribusi', text: 'Unit Isuzu irit dan jarang rewel. Proses pembelian cepat & jelas.' },
+        { name: 'Ibu Rina', role: 'Logistik F&B', text: 'Sales responsif, rekomendasi karoseri tepat. Biaya operasional turun.' },
+        { name: 'CV Karya Abadi', role: 'Kontraktor', text: 'Giga FVM tangguh di proyek, pengiriman tepat waktu.' }
+      ];
+      const tWrap = tpl.querySelector('#testimonials');
+      ts.forEach(t => tWrap.appendChild(create('div', {class:'p-6 rounded-2xl border bg-white'}, [
+        create('p', {class:'text-gray-700'}, t.text),
+        create('div', {class:'mt-4 text-sm'}, [
+          create('p', {class:'font-semibold'}, t.name),
+          create('p', {class:'text-gray-500'}, t.role)
+        ])
+      ])));
+      mount(tpl);
+      // Optional: show promo if needed
+      // el('#promoArea').classList.remove('hidden'); // uncomment untuk menampilkan banner promo
+    }
+
+    function renderUnits() {
+      const tpl = el('#tpl-units').content.cloneNode(true);
+      const wrap = tpl.querySelector('#unitsList');
+      const q = tpl.querySelector('#q');
+      const fType = tpl.querySelector('#fType');
+      const fCapacity = tpl.querySelector('#fCapacity');
+      const fPrice = tpl.querySelector('#fPrice');
+
+      // Populate types
+      const types = [...new Set(UNITS.map(u => u.type))];
+      types.forEach(t => fType.appendChild(create('option', {value:t}, t)));
+
+      const apply = () => {
+        wrap.innerHTML = '';
+        const term = q.value.toLowerCase();
+        UNITS.filter(u => {
+          const byQ = !term || u.name.toLowerCase().includes(term);
+          const byT = !fType.value || u.type === fType.value;
+          const byC = !fCapacity.value || (
+            (fCapacity.value==='<2t' && parseFloat(u.capacity) < 2) ||
+            (fCapacity.value==='2-5t' && parseFloat(u.capacity) >= 2 && parseFloat(u.capacity) <= 5) ||
+            (fCapacity.value==='>5t' && parseFloat(u.capacity) > 5)
+          );
+          const byP = !fPrice.value || (
+            (fPrice.value==='\u003C300' && u.price < 300_000_000) ||
+            (fPrice.value==='300-700' && u.price >= 300_000_000 && u.price <= 700_000_000) ||
+            (fPrice.value==='\u003E700' && u.price > 700_000_000)
+          );
+          return byQ && byT && byC && byP;
+        }).forEach(u => wrap.appendChild(unitCard(u)));
+        if (!wrap.children.length) wrap.appendChild(create('div', {class:'text-gray-500'}, 'Tidak ada hasil. Ubah filter atau kata kunci.'))
+      };
+
+      [q, fType, fCapacity, fPrice].forEach(c => c.addEventListener('input', apply));
+      apply();
+      mount(tpl);
+    }
+
+    function renderUnitDetail(id) {
+      const u = UNITS.find(x => x.id === id) || UNITS[0];
+      const tpl = el('#tpl-unit-detail').content.cloneNode(true);
+      tpl.querySelector('#bdCrumb').textContent = u.name;
+      tpl.querySelector('#heroImg').src = u.gallery[0];
+      const gal = tpl.querySelector('#gallery');
+      u.gallery.forEach((g, i) => {
+        const thumb = create('img', {src:g, alt:`Foto ${u.name} ${i+1}`, class:'w-28 h-20 object-cover rounded-xl border snap-start cursor-pointer'});
+        thumb.addEventListener('click', () => { el('#heroImg').src = g; });
+        gal.appendChild(thumb);
+      });
+      tpl.querySelector('#uTitle').textContent = u.name;
+      tpl.querySelector('#uSubtitle').textContent = u.subtitle || '';
+      tpl.querySelector('#uPrice').textContent = 'Mulai Rp' + fmtIDR(u.price);
+      tpl.querySelector('#uType').textContent = u.type;
+      tpl.querySelector('#uCapacity').textContent = u.capacity;
+
+      // WA button
+      const waMsg = encodeURIComponent(`Halo, saya tertarik ${u.name}. Mohon kirimkan penawaran & ketersediaan.`);
+      tpl.querySelector('#btnWAUnit').href = `https://wa.me/${WA_NUMBER}?text=${waMsg}`;
+
+      // Form submit via WhatsApp
+      tpl.querySelector('#formQuote').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const fd = new FormData(e.target);
+        const msg = `Halo, saya ingin penawaran ${u.name}%0A`+
+          `Nama: ${encodeURIComponent(fd.get('nama'))}%0A`+
+          `Telp: ${encodeURIComponent(fd.get('telp'))}%0A`+
+          `Perusahaan: ${encodeURIComponent(fd.get('perusahaan')||'-')}%0A`+
+          `Skema: ${encodeURIComponent(fd.get('pembiayaan'))}%0A`+
+          `Catatan: ${encodeURIComponent(fd.get('catatan')||'-')}`;
+        window.open(`https://wa.me/${WA_NUMBER}?text=${msg}`, '_blank');
+      });
+
+      // Specs grid
+      const specs = tpl.querySelector('#specs');
+      Object.entries(u.specs).forEach(([k,v]) => {
+        specs.appendChild(create('div', {class:'p-4 rounded-xl border bg-white'}, [
+          create('p', {class:'text-gray-500 text-sm'}, k),
+          create('p', {class:'font-semibold'}, v)
+        ]));
+      });
+
+      // Variants table
+      const tbody = tpl.querySelector('#variantRows');
+      u.variants.forEach(v => {
+        const tr = create('tr', {}, [
+          create('td', {class:'p-3 border'}, v.name),
+          create('td', {class:'p-3 border'}, v.trans),
+          create('td', {class:'p-3 border'}, v.payload),
+          create('td', {class:'p-3 border'}, 'Rp' + fmtIDR(v.price))
+        ]);
+        tbody.appendChild(tr);
+      });
+
+      mount(tpl);
+
+      // Inject Product JSON-LD for SEO
+      injectProductLD(u);
+    }
+
+    function renderPricelist() {
+      const tpl = el('#tpl-pricelist').content.cloneNode(true);
+      const tbody = tpl.querySelector('#priceRows');
+      UNITS.forEach(u => {
+        const tr = create('tr', {}, [
+          create('td', {class:'p-3 border'}, u.name),
+          create('td', {class:'p-3 border'}, u.type),
+          create('td', {class:'p-3 border'}, u.capacity),
+          create('td', {class:'p-3 border'}, 'Rp' + fmtIDR(u.price)),
+          create('td', {class:'p-3 border'}, create('a', {href:`#/unit/${u.id}`, class:'text-brand hover:underline'}, 'Detail'))
+        ]);
+        tbody.appendChild(tr);
+      });
+      mount(tpl);
+
+      // BreadcrumbList for SEO
+      injectBreadcrumbLD([
+        { name: 'Beranda', item: location.origin + location.pathname + '#/' },
+        { name: 'Pricelist 2025', item: location.origin + location.pathname + '#/pricelist' }
+      ]);
+    }
+
+    function renderContact() {
+      const tpl = el('#tpl-contact').content.cloneNode(true);
+      mount(tpl);
+      injectBreadcrumbLD([
+        { name: 'Beranda', item: location.origin + location.pathname + '#/' },
+        { name: 'Kontak', item: location.origin + location.pathname + '#/contact' }
+      ]);
+    }
+
+    function renderPrivacy() {
+      const tpl = el('#tpl-privacy').content.cloneNode(true);
+      mount(tpl);
+    }
+
+    function unitCard(u) {
+      const card = create('div', {class:'rounded-2xl border overflow-hidden bg-white hover:shadow-smooth transition'});
+      const img = create('img', {src: u.gallery[0], alt: u.name, class:'w-full h-44 object-cover'});
+      const body = create('div', {class:'p-4'}, [
+        create('div', {class:'flex items-start justify-between gap-3'}, [
+          create('h3', {class:'font-semibold'}, u.name),
+          create('span', {class:'text-xs px-2 py-1 rounded-full bg-gray-100'}, u.type)
+        ]),
+        create('p', {class:'text-sm text-gray-500 mt-1'}, u.capacity + ' • Mulai Rp' + fmtIDR(u.price)),
+        create('div', {class:'mt-3 flex items-center gap-3'}, [
+          create('a', {href:`#/unit/${u.id}`, class:'px-4 py-2 rounded-xl bg-gray-900 text-white text-sm'}, 'Lihat Detail'),
+          create('a', {href:`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Halo, saya tertarik '+u.name)}`, target:'_blank', class:'text-sm text-brand hover:underline'}, 'Tanya via WA')
+        ])
+      ]);
+      card.appendChild(img); card.appendChild(body);
+      return card;
+    }
+
+    function mount(node) {
+      const app = el('#app');
+      app.innerHTML = '';
+      app.appendChild(node);
+      window.scrollTo({top:0, behavior:'smooth'});
+    }
+
+    // SEO: Inject JSON-LD helpers
+    function injectProductLD(u){
+      const ld = {
+        '@context':'https://schema.org',
+        '@type':'Product',
+        name: u.name,
+        brand: { '@type':'Brand', name: 'Isuzu' },
+        category: u.type,
+        description: u.subtitle || '',
+        image: u.gallery,
+        offers: {
+          '@type':'AggregateOffer',
+          priceCurrency:'IDR',
+          lowPrice: u.variants?.length ? Math.min(...u.variants.map(v=>v.price)) : u.price,
+          highPrice: u.variants?.length ? Math.max(...u.variants.map(v=>v.price)) : u.price,
+          availability: 'https://schema.org/InStock',
+          url: location.href
+        }
+      };
+      const s = document.createElement('script');
+      s.type = 'application/ld+json';
+      s.textContent = JSON.stringify(ld);
+      document.head.appendChild(s);
+    }
+
+    function injectBreadcrumbLD(items){
+      const ld = {
+        '@context':'https://schema.org',
+        '@type':'BreadcrumbList',
+        itemListElement: items.map((it, idx) => ({
+          '@type':'ListItem', position: idx+1, name: it.name, item: it.item
+        }))
+      };
+      const s = document.createElement('script');
+      s.type = 'application/ld+json';
+      s.textContent = JSON.stringify(ld);
+      document.head.appendChild(s);
+    }
+
+    // Mobile menu toggle
+    el('#btnMenu').addEventListener('click', ()=>{
+      el('#mobileMenu').classList.toggle('hidden');
+    });
+
+    // Init
+    el('#year').textContent = new Date().getFullYear();
+    window.addEventListener('hashchange', router);
+    router();
+  </script>
 </body>
-  </html>
+</html>
